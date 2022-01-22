@@ -7,3 +7,5 @@ To run openweather-go:
 1. Update the appid in Config -> config.json with your Open Weather API key
 2. (Optional) Change the port openweather-go runs on.
 3. Run from the root directory: go run main.go
+
+Example request: http://localhost:8080/weather?lat=33.44&lon=-96.731667
