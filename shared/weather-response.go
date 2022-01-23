@@ -7,7 +7,7 @@ var NiceString = "Nice"
 var HotString = "Hot"
 
 type WeatherResposne struct {
-	Condition string   `json:"precip"`
+	Condition string   `json:"condition"`
 	Temp      string   `json:"temp"`
 	HasAlert  bool     `json:"hasAlert"`
 	Alerts    []string `json:"alerts"`
